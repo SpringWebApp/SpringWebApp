@@ -18,6 +18,10 @@ public class Publisher {
     private String state;
     private String zipCode;
 
+    public Publisher(){
+
+    }
+
     public Publisher(String name, String city, String state, String zipCode) {
         this.name = name;
         this.city = city;
